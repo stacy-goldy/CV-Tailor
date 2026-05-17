@@ -8,7 +8,7 @@ import json
 import uuid
 import os
 
-st.set_page_config(page_title="CV Tailor for Mum", page_icon="📄", layout="centered")
+st.set_page_config(page_title="CV Tailor for Frances", page_icon="📄", layout="centered")
 
 # ====================== GROK CLIENT (uses Streamlit Secrets) ======================
 client = OpenAI(
@@ -16,7 +16,7 @@ client = OpenAI(
     base_url="https://api.x.ai/v1",
 )
 
-st.title("📄 CV Tailor for Mum 💕")
+st.title("📄 CV Tailor for Frances")
 st.write("Upload your CV and job description → Get tailored CV + Cover Letter")
 
 # ====================== HISTORY ======================
